@@ -1,8 +1,8 @@
 /* CSS Variables */
 :root {
-  --primary:#00eeff;
-  --dark: #333;
-  --light: #00bfff;
+  --primary:#00181a;
+  --dark: rgb(0, 15, 150);
+  --light: #838383;
   --shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
 }
 
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  background: rgb(234, 245, 247);
+  background: rgb(0, 52, 61);
   margin: 30px 50px;
   line-height: 1.4;
 }
@@ -105,6 +105,7 @@ img {
   justify-items: center;
   box-shadow: var(--shadow);
   padding: 1.5rem;
+  position: left
 }
 
 .top-box .price {
